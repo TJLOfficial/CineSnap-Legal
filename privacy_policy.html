@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Privacy Policy - CineSnap</title>
     <style>
         body {
@@ -16,63 +18,141 @@
         h2 {
             color: #333;
         }
+
+        .highlight {
+            background: #f4f4f4;
+            border-left: 4px solid #c9a227;
+            padding: 12px 16px;
+            margin: 20px 0;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 12px 0;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background: #f4f4f4;
+        }
     </style>
 </head>
 
 <body>
     <h1>Privacy Policy</h1>
-    <p><strong>Last updated: 25.2.2026</strong></p>
+    <p><strong>Last updated: 11.8.2026</strong></p>
 
-    <p>This Privacy Policy describes how CineSnap ("we", "us", or "our") handles your data when you use our mobile
-        application.</p>
+    <div class="highlight">
+        <p><strong>The short version: CineSnap collects nothing.</strong> The app has no internet permission at all, so
+            it is technically incapable of sending your videos, images, or any other information off your device. There
+            are no ads, no analytics, no trackers, and no user accounts.</p>
+    </div>
 
-    <h2>1. Data Collection and Usage</h2>
-    <p><strong>We do not collect, store, or transmit any of your personal data.</strong></p>
-    <p>CineSnap operates entirely <strong>locally on your device</strong>. When you select a video to extract frames:
+    <h2>1. Who is responsible for your data</h2>
+    <p>CineSnap is developed and published by:</p>
+    <p>
+        <strong>Temetunes</strong> — sole trader (yksityinen elinkeinonharjoittaja): Teemu Laitinen<br>
+        Registered in Finland<br>
+        Business ID (Y-tunnus): 3595769-7<br>
+        Riimukuja 6 J 51, 01200 Vantaa, Finland<br>
+        Email: <a href="mailto:temetunes.dev@gmail.com">temetunes.dev@gmail.com</a>
     </p>
+    <p>Temetunes is the data controller for the purposes of the GDPR — although, as explained below, the app gives us no
+        personal data to control.</p>
+
+    <h2>2. What data we collect</h2>
+    <p><strong>None.</strong> We do not collect, store, transmit, sell, or share any personal data. We have no servers,
+        no database, and no analytics service. We cannot see how you use the app.</p>
+
+    <h2>3. How the app handles your files</h2>
+    <p>Everything CineSnap does happens locally on your device:</p>
     <ul>
-        <li>The video file is processed directly on your phone's processor.</li>
-        <li>The extracted images are saved directly to your phone's internal storage (Gallery).</li>
-        <li>No video or image data is ever sent to any external server or cloud service.</li>
+        <li>Videos you choose are decoded by your phone's own media decoders. The video file is never copied off the
+            device.</li>
+        <li>Frames you save are written to your device's own storage, in <code>Pictures/CineSnap</code>. They are your
+            files; you can move or delete them like any other photo.</li>
+        <li>Prompt notes, favourites, and app settings are stored only in CineSnap's private storage on your device. They
+            are removed if you uninstall the app or clear its data.</li>
     </ul>
+    <p>Because the app has no network access, none of this can leave your phone.</p>
 
-    <h2>2. Permissions</h2>
-    <p>The app requires the following permissions to function:</p>
-    <ul>
-        <li><strong>Read Media/Storage:</strong> To allow you to select videos from your gallery.</li>
-        <li><strong>Write Storage:</strong> To save the extracted images to your device.</li>
-    </ul>
-    <p>These permissions are used strictly for the app's core functionality.</p>
+    <h2>4. Permissions and why they are needed</h2>
+    <table>
+        <tr>
+            <th>Permission</th>
+            <th>Why</th>
+        </tr>
+        <tr>
+            <td>Photos and videos (read)</td>
+            <td>To list the videos already on your phone in the Videos tab, and to list every frame you have saved in
+                <code>Pictures/CineSnap</code> in the Library. Read-only: the app never modifies media you did not
+                create with it.</td>
+        </tr>
+        <tr>
+            <td>Limited photo/video access (Android 14+)</td>
+            <td>If you prefer, you can grant access to selected items only. The app works with either choice.</td>
+        </tr>
+        <tr>
+            <td>Billing</td>
+            <td>To offer the one-time Pro purchase through Google Play.</td>
+        </tr>
+    </table>
+    <p>You can decline the media permissions and still use the app: choosing a video through Android's system photo
+        picker requires no permission at all.</p>
+    <p>CineSnap does <strong>not</strong> request internet access, location, camera, microphone, contacts, or device
+        identifiers.</p>
 
-    <h2>3. Third-Party Services (Advertising)</h2>
-    <p>The free version of CineSnap displays advertisements provided by <strong>Google AdMob</strong>. AdMob may collect
-        certain information to serve personalized or non-personalized ads, including:</p>
-    <ul>
-        <li>Device identifiers (such as Advertising ID)</li>
-        <li>IP address</li>
-        <li>General location data</li>
-        <li>App usage data for ad performance</li>
-    </ul>
-    <p>For more information on how Google handles your data, please review the <a
-            href="https://policies.google.com/privacy" target="_blank">Google Privacy Policy</a>.</p>
-    <p><strong>Premium users do not see any ads</strong>, and no ad-related data is collected for them.</p>
+    <h2>5. No advertising, no analytics, no AI models</h2>
+    <p>CineSnap contains no advertising SDK, no analytics or crash-reporting service, and no third-party trackers. We do
+        not use your Advertising ID, IP address, or location — the app cannot access them in any way that leaves the
+        device.</p>
+    <p>CineSnap also contains no artificial-intelligence or machine-learning models. Features such as sharpness
+        detection, colour-palette extraction, and tone matching are ordinary mathematical image processing that runs on
+        your device. Nothing is sent to an AI service, and no model is downloaded.</p>
 
-    <h2>5. AI Enhancer Feature (Transparency & Processing)</h2>
-    <p>The Premium "AI Enhance" feature utilizes TensorFlow Lite to process images directly on your device's hardware.
-        This means the AI enhancement operates 100% offline and no images are sent to any external servers. This feature
-        is intended for image upscaling and restoration. Please note that performance and compatibility of the AI
-        features depend heavily on your device's hardware capabilities.</p>
+    <h2>6. Purchases through Google Play</h2>
+    <p>The optional one-time Pro purchase is processed entirely by <strong>Google Play</strong>, not by us. When you buy,
+        Google handles your payment and processes the related data as an independent controller under its own privacy
+        policy. We never see your name, address, or payment details.</p>
+    <p>From Google we receive only what Play Console shows every developer: aggregated sales figures and order
+        identifiers used for refunds and support. See the <a href="https://policies.google.com/privacy"
+            target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
 
-    <h2>6. User Rights (GDPR & CCPA)</h2>
-    <p>Under applicable data protection laws, including the GDPR, you have the right to access, rectify, or erase your
-        data, as well as the right to restrict or object to its processing. Because CineSnap processes all user media
-        entirely locally on-device, we do not have access to your personal files to delete or modify them on your
-        behalf. To withdraw consent for personalized advertising data collected by Google AdMob (Free Version), you can
-        adjust your advertising preferences directly within your Android device settings (Settings &gt; Google &gt; Ads
-        &gt; Delete advertising ID or Opt out of Ads Personalization).</p>
+    <h2>7. Data retention</h2>
+    <p>We hold no data about you, so there is nothing for us to retain or delete. Files and notes created by the app stay
+        on your device until you delete them.</p>
 
-    <h2>7. Contact Us</h2>
-    <p>If you have any questions about this Privacy Policy, please contact us at: temetunes.dev@gmail.com</p>
+    <h2>8. Your rights under the GDPR</h2>
+    <p>As a person in the EU you have the right to access, rectify, erase, restrict, or object to the processing of your
+        personal data, and the right to data portability. These rights apply to data a company holds about you.</p>
+    <p>Because we hold no personal data about you, there is nothing for us to disclose, correct, or erase on your behalf.
+        The frames and notes on your device are under your control, not ours. If you have a question or believe we have
+        processed data about you, contact <a href="mailto:temetunes.dev@gmail.com">temetunes.dev@gmail.com</a> and we
+        will respond.</p>
+    <p>For matters relating to your purchase, contact Google, which acts as the controller for that data.</p>
+    <p>You also have the right to lodge a complaint with a data protection authority. In Finland this is the Office of
+        the Data Protection Ombudsman (Tietosuojavaltuutetun toimisto), <a href="https://tietosuoja.fi/en"
+            target="_blank" rel="noopener">tietosuoja.fi</a>.</p>
+
+    <h2>9. Children</h2>
+    <p>CineSnap is a tool for video creators and is not directed at children. We do not knowingly collect data from
+        anyone — including children — because we collect no data at all.</p>
+
+    <h2>10. Changes to this policy</h2>
+    <p>If this policy changes, we will update the "last updated" date above and publish the new version at this address.
+        Because the app collects no data, we do not expect material changes unless the app itself gains a new
+        capability — in which case the change will be described here.</p>
+
+    <h2>11. Contact</h2>
+    <p>Questions about this policy: <a href="mailto:temetunes.dev@gmail.com">temetunes.dev@gmail.com</a></p>
 </body>
 
 </html>
